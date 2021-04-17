@@ -12,6 +12,8 @@ Over the past decade, bicycle-sharing systems have been growing in number and po
 
 This is a python project to analyze bikeshare data in three cities, Chicago, New York City and Washington. The project let you interact with data to find statistics related to use of bikesharing, the trips, time travelled, type of users.
 
+At the end of the routine you are asked if you want to see data in shunks of five.
+
 ### Files used
 The files used for this project are csv files with data from new yor city, chicago and washington bikeshare program information. The data is randomly selected for the first six months of 2017. All three of the data files contain the same core six (6) columns:
 
