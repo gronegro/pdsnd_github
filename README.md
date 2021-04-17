@@ -27,3 +27,5 @@ The Chicago and New York City files also have Gender, Birth Year columns
 ### Credits
 
 Thanks to Udacity for the project descriptions and details on the files Used.
+
+Author: Giovanny Rozo
