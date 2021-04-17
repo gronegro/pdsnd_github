@@ -217,6 +217,25 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def IndividualData(df):
+
+    #Given a data frame asks the user if he wants to see individual data in shunks of 5 for as long as the user requires
+
+    start_loc = 0
+    view_display = input("Would you like to see individual data? (Enter yes/no): ").lower()
+
+    while (view_display not in ["yes", "no"]):
+        view_display=input("Invalid answer. Would you like to continue seeing more data? Enter yes/no:").lower()
+
+
+    while view_display=="yes":
+        print(df.iloc[start_loc:start_loc+5])
+        start_loc += 5
+        view_display = input("Do you wish to continue seeing more data? (Enter yes/no): ").lower()
+        while (view_display not in ["yes", "no"]):
+            view_display=input("Invalid answer. Would you like to continue seeing more data? Enter yes/no:").lower()
+
+
 
 def main():
 
